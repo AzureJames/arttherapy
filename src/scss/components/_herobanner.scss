@@ -1,0 +1,88 @@
+@use '../assets' as a;
+
+.bg {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../../img/hvac.jpeg');
+	padding-bottom: 15rem;
+	// padding-top: 6rem;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+
+	.button {
+		margin-bottom: 3rem;
+	}
+}
+
+@media screen and (min-width: 430px) {
+	.bg {
+		background-image: linear-gradient(
+				rgba(255, 255, 255, 0.2),
+				rgba(255, 255, 255, 0.2)
+			),
+			url('../../img/hvac.jpeg');
+		background-size: cover;
+	}
+}
+
+.bg-ten {
+	// background-image: linear-gradient(
+	// 		rgba(255, 255, 255, 0.2),
+	// 		rgba(255, 255, 255, 0.2)
+	// 	),
+	// 	url('../../img/1031-sm.jpg');
+	padding-bottom: 15rem;
+	// padding-top: 6rem;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+
+	.button {
+		margin-bottom: 3rem;
+	}
+}
+
+@media screen and (min-width: 430px) {
+	// . {
+	// 	background-image: linear-gradient(
+	// 			rgba(255, 255, 255, 0.2),
+	// 			rgba(255, 255, 255, 0.2)
+	// 		),
+	// 		url('../../img/1031-big.jpg');
+	.bg-ten{		
+	background-size: cover;
+		background-position: center;
+	}
+}
+
+.bg-contact {
+	// background-image: linear-gradient(
+	// 		rgba(255, 255, 255, 0.2),
+	// 		rgba(255, 255, 255, 0.2)
+	// 	),
+	// 	url('../../img/contact-bg-sm.jpg');
+	padding-bottom: 15rem;
+	// padding-top: 6rem;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+
+	.button {
+		margin-bottom: 3rem;
+	}
+}
+
+@media screen and (min-width: 430px) {
+	.bg-contact {
+		// background-image: linear-gradient(
+		// 		rgba(255, 255, 255, 0.2),
+		// 		rgba(255, 255, 255, 0.2)
+		// 	),
+		// 	url('../../img/contact-bg-big.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+}
