@@ -53,3 +53,53 @@ body footer {
 		}
 	}
 }
+
+
+
+
+//doesnt work in its own file
+.our-services {
+	margin-bottom: 1rem;
+	
+		.outerDiv {
+			max-height: 4rem;
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			background: rgb(69,213,223);
+			background: linear-gradient(90deg, #370642 0%, rgba(69,213,223,1) 50%, #921459 100%); 
+		}
+
+
+		.outerDivAlt {
+			// padding-top: .1rem;
+			background: rgb(69,213,223);
+			background: linear-gradient(90deg, rgba(69,213,223,0.0935107832195378) 0%, rgba(69,213,223,1) 50%, rgba(69,213,223,0.0935107832195378) 100%); 
+		}
+	
+		.innerDiv {
+			max-height: 4rem;
+			display: block;
+		}
+	
+		.ascii {
+			position: relative;
+			bottom: 2.6rem;
+			right: 15rem;
+			color: var(--lightblue);
+			animation: color-change 2s infinite;
+		}
+		  
+		  @keyframes color-change {
+			0% { color: var(--lightblue); }
+			50% { color: turquoise; }
+			100% { color: var(--lightblue); }
+		  }
+	
+		.r {
+			left: 28rem;
+			bottom: 5.1rem;
+		}
+	
+	
+	}

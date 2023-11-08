@@ -45,7 +45,7 @@ const Footer = () => {
 						<h3>heading</h3>
 						<div >
 							<a href='/'>
-								<img src={hvac} alt='Placeholder logo' style={{width: '19	0px', height: "auto"}} />
+								<img src={hvac} alt='Placeholder logo' style={{width: '190px', height: "auto"}} />
 							</a>
 						</div>						
 					</div>

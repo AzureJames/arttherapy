@@ -13,6 +13,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { AiFillFacebook } from "react-icons/ai";
 //STYLING
 import '../scss/pages/_home.scss';
+import OurServices from '../components/OurServices';
 
 //MUST USE A FAVICON.ICO AT THE ROOT OF THE APP DIRECTORY...
 //update metadata in public index html 
@@ -38,10 +39,10 @@ function Home() {
 					</div> */}
 				{/* </div> */}
 				<div className='inner-container' style={{marginInline: '1rem', marginBottom: '3rem', padding: "1.5rem"}}>
-					<h1 className='off-white'   style={{ marginBlock: '0rem'}}>I'm Lynette Lex</h1>
-					<p className='off-white'  style={{ marginBottom: '2rem'}}>PhD, ATR-BC, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LCAT, CASAC</p>
+					<h1 className='off-white'   style={{ marginBlock: '0rem'}}>Life is Art Creative Arts Therapy, PLLC</h1>
+					<p className='off-white'  style={{ marginBottom: '2rem', marginTop:"1rem"}}>Lynette Lex, PhD, ATR-BC, LCAT, CASAC</p>
 					<p className='off-white m-w65' style={{ marginBottom: '2rem'}}>
-					Lynette Lex has a unique Art Therapy Studio, Life is Art, where Art Therapy, EMDR and a holistic wellness approach to therapy are combined. Meditation, Mindfulness, Reiki and Aromatherapy are often included in sessions. Art Therapy gives a non-verbal means for expression when words are not enough. 
+					Life is Art is a unique Art Therapy Studio where EMDR, Art Therapy, and a holistic wellness approach to therapy are combined. Meditation, Mindfulness, Reiki and Aromatherapy are often included in sessions. Art Therapy gives a non-verbal means for expression when words are not enough. 
 					</p>
 					<p className='off-white m-w65'  style={{ marginBottom: '2rem'}}>
 					The Art Therapy Studio has a large space where both individuals and groups are able to create. This is a safe and inviting atmosphere where trauma can be addressed and healing is possible. Tela Health appointments are also available. Private pay and Cigna, Empire BCBC, Excellus BCBS, and Highmark BCBS, BCBS accepted. 
@@ -63,8 +64,9 @@ function Home() {
 				tagline='Upcoming Event' //The trees are as precious to us as diamonds, pearls, and the petals of a white rose. Quickbooks Online provides the way to paperless bookkeeping and we will donate $25 to Re-Tree NY for each new client.
 				tagline2='Upcoming Event'
 			></DevBanner>
-			
+							<OurServices />
 			<div className='flex1200'>
+
 				<CardList
 					index='text'
 					title='About Us'
@@ -101,8 +103,8 @@ function Home() {
 
 
 <div style={{ margin: "0 auto", paddingTop: "60px", paddingBottom: "40px"}} className='flex-768'> 
-	<div class="testimonial-quote group right">
-        <div class="quote-container">
+	<div className="testimonial-quote group right">
+        <div className="quote-container">
             <div>
                 <blockquote>
                     <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
@@ -114,8 +116,8 @@ function Home() {
             </div>
         </div>
     </div>     
-	<div class="testimonial-quote group right" >
-        <div class="quote-container">
+	<div className="testimonial-quote group right" >
+        <div className="quote-container">
             <div>
                 <blockquote>
                     <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
@@ -146,8 +148,13 @@ function Home() {
 				url='URL for the post'
 				type=''
 				title='Contact'
-				summary='Hours: Mon-Fri'
-				summary2='Email: Phone:'
+				summary='Hours: Weekdays, day and evening hours are available.
+				Location: 6069 Southwestern Blvd
+				Hamburg, NY 14075
+				'
+				
+				summary2='Phone: 716-235-1900
+				Email: lifeisarthamburg@gmail.com'
 				src={hvac}
 				alt=''
 			/>
@@ -157,8 +164,8 @@ function Home() {
 
 
 			<div style={{ margin: "0 auto", paddingTop: "10px", paddingBottom: "40px"}} className='flex-768'> 
-	<div class="testimonial-quote group right">
-        <div class="quote-container">
+	<div className="testimonial-quote group right">
+        <div className="quote-container">
             <div>
                 <blockquote>
                     <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
@@ -170,8 +177,8 @@ function Home() {
             </div>
         </div>
     </div>     
-	<div class="testimonial-quote group right" >
-        <div class="quote-container">
+	<div className="testimonial-quote group right" >
+        <div className="quote-container">
             <div>
                 <blockquote>
                     <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
