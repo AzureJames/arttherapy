@@ -24,6 +24,15 @@
 		margin: 3rem;
 	}
 }
+@media screen and (min-width: 898px) {
+	.devbanner {
+		padding: 8rem;
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: space-between;
+		}
+	}
 
 .devbanner {
 	text-align: center;

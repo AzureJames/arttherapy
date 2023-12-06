@@ -7,7 +7,14 @@ import BannerCard from '../components/BannerCard';
 import DevBanner from '../components/DevBanner';
 import FullPost from '../components/FullPost';
 import CurvySection from '../components/CurvySection';
+
 import hvac from "../img/hvac.jpeg";
+import diving from "../img/diving.png";
+import mask from "../img/mask.jpg";
+import mask2 from "../img/mask2.jpg";
+import skele from "../img/skele.jpg";
+import whitePainting from "../img/whitePainting.jpg";
+
 import HeroBanner from '../components/HeroBanner';
 import { FaSquareInstagram } from "react-icons/fa6";
 import { AiFillFacebook } from "react-icons/ai";
@@ -30,7 +37,7 @@ function Home() {
 						body='We keep you warm'
 						body2='We keep you warm'
 					></BannerCard> */}
-					<img src={hvac} alt="abstract art" style={{width: '100%', maxWidth: '400px', height: 'auto'}}></img>
+					<img src={whitePainting} alt="abstract art" style={{width: '100%', maxWidth: '400px', height: 'auto'}}></img>
 					{/* 
 					
 					<div>
@@ -96,22 +103,16 @@ function Home() {
 					></Card>
 
 
-
-
-
-
-
-
 <div style={{ margin: "0 auto", paddingTop: "60px", paddingBottom: "40px"}} className='flex-768'> 
 	<div className="testimonial-quote group right">
         <div className="quote-container">
             <div>
                 <blockquote>
-                    <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
+                    <p>Overall, fantastic!</p>
                 </blockquote>  
                 <cite><span>Kristi Bruno</span><br/>
-                    Social Media Specialist<br/>
-                    American College of Chest Physicians
+                    Credentials<br/>
+                    Credentials
                 </cite>
             </div>
         </div>
@@ -120,11 +121,11 @@ function Home() {
         <div className="quote-container">
             <div>
                 <blockquote>
-                    <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
+                    <p>Overall, fantastic!</p>
                 </blockquote>  
                 <cite><span>Kristi Bruno</span><br/>
-                    Social Media Specialist<br/>
-                    American College of Chest Physicians
+					Credentials<br/>
+					Credentials
                 </cite>
             </div>
         </div>
@@ -133,13 +134,6 @@ function Home() {
 
 
 </div>
-
-
-
-
-
-
-
 
 
 
@@ -155,7 +149,7 @@ function Home() {
 				
 				summary2='Phone: 716-235-1900
 				Email: lifeisarthamburg@gmail.com'
-				src={hvac}
+				src={skele}
 				alt=''
 			/>
 			<div className='inner-container'>
@@ -168,11 +162,11 @@ function Home() {
         <div className="quote-container">
             <div>
                 <blockquote>
-                    <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
+                    <p>Overall, fantastic!</p>
                 </blockquote>  
                 <cite><span>Kristi Bruno</span><br/>
-                    Social Media Specialist<br/>
-                    American College of Chest Physicians
+                    Credentials<br/>
+                    Credentials
                 </cite>
             </div>
         </div>
@@ -181,11 +175,11 @@ function Home() {
         <div className="quote-container">
             <div>
                 <blockquote>
-                    <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
+                    <p>Overall, fantastic!</p>
                 </blockquote>  
                 <cite><span>Kristi Bruno</span><br/>
-                    Social Media Specialist<br/>
-                    American College of Chest Physicians
+				Credentials<br/>
+				Credentials
                 </cite>
             </div>
         </div>
@@ -212,8 +206,8 @@ function Home() {
 					oll='1. '
 					oll2='2. '
 				></CardList> */}
-				<img src={hvac} alt="" style={{width: '100%', maxWidth: '400px', height: 'auto'}}></img>
-				<img src={hvac} alt="" style={{width: '100%', maxWidth: '400px', height: 'auto'}}></img>
+				<img src={mask} alt="" style={{width: '100%', maxWidth: '400px', height: 'auto'}}></img>
+				<img src={mask2} alt="" style={{width: '100%', maxWidth: '400px', height: 'auto'}}></img>
 			</div>
 			<div className='flex1200'>
 			</div>
