@@ -8,6 +8,7 @@ import DevBanner from '../components/DevBanner';
 import FullPost from '../components/FullPost';
 import CurvySection from '../components/CurvySection';
 import hvac from "../img/hvac.jpeg";
+import sunflower from "../img/sunflower.jpg";
 import HeroBanner from '../components/HeroBanner';
 import { FaSquareInstagram } from "react-icons/fa6";
 import { AiFillFacebook } from "react-icons/ai";
@@ -29,7 +30,8 @@ function About() {
 						body='We keep you warm'
 						body2='We keep you warm'
 					></BannerCard> */}
-					<img src={hvac} alt="abstract art" style={{maxHeight:"400px"}}></img>
+					<img src={sunflower} alt="abstract art" style={{maxHeight:"400px"}}></img>
+					<caption><p>The blue is spiritual for my brother who passed away. The roots are not the best ground to work with. The sunflower stands further away from the dark parts. It faces the sun and is more hopeful.</p></caption>
 					{/* 
 					
 					<div>

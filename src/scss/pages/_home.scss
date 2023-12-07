@@ -25,6 +25,10 @@
 	align-items: center;
 }
 
+caption {
+	display: inline;
+}
+
 .footer {
 	display: flex;
 	flex: 1;
@@ -34,6 +38,7 @@
 	justify-content: space-between;
 	align-items: center;
 }
+
 
 .footer a {
 	display: flex;
