@@ -7,9 +7,9 @@ export default function DevBanner({title, tagline, tagline2, image, svgColor}) {
   return (
     <>
         <div className='devbanner'>
-            <div>
-              <img src={hvac} width={575} height={600} alt="diving painting"/>
-              <caption><p>Swimming in the ocean is not just spending time in the water; it's a therapeutic dance with the waves that rejuvenates both body and soul. (Digital water color painting)</p></caption>
+            <div style={{display:"flex", justifyContent: "center", flexWrap: "wrap", alignItems: "end"}}>
+              <img src={hvac} width={575} height={600} alt="diving painting" style={{flex: "1 1 700px"}}/>
+              <caption style={{flex: "0 1 525px"}}><p>Swimming in the ocean is not just spending time in the water; it's a therapeutic dance with the waves that rejuvenates both body and soul. (Digital water color painting)</p></caption>
             </div>
             <div>
             <h1 className='title'>{title}</h1>

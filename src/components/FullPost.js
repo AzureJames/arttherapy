@@ -26,6 +26,6 @@ const FullPost = (props) => {
 			</div>
 		</div>
 	);
-};
+};	
 
 export default FullPost;
