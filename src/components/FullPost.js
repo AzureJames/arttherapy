@@ -22,7 +22,7 @@ const FullPost = (props) => {
 			</div>
 			<div className='post-img'>
 				<img src={props.src} alt={props.alt} />
-				<caption><p>In the process of patching myself together, I am reminded that all of my pieces are worthy of love. (heart chakra work) </p></caption>
+				<caption><p>{props.caption}</p></caption>
 			</div>
 		</div>
 	);

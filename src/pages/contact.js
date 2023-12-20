@@ -7,7 +7,7 @@ import BannerCard from '../components/BannerCard';
 import DevBanner from '../components/DevBanner';
 import FullPost from '../components/FullPost';
 import CurvySection from '../components/CurvySection';
-import hvac from "../img/hvac.jpeg";
+import hvac from "../img/diving.png";
 import HeroBanner from '../components/HeroBanner';
 import { FaSquareInstagram } from "react-icons/fa6";
 import { AiFillFacebook } from "react-icons/ai";
@@ -20,16 +20,22 @@ import '../scss/pages/_home.scss';
 function Contact() {
 	return (
 		<div className='home'>
-								<Navbar />
+			<Navbar />
 			<FullPost
 				url='URL for the post'
 				type=''
 				title='Contact'
-				summary='Hours: Mon-Fri'
-				summary2='Email: Phone:'
+				summary='Hours: Weekdays, day and evening hours are available.
+				Location: 6069 Southwestern Blvd
+				Hamburg, NY 14075
+				'
+				summary2='Phone: 716-235-1900
+				Email: lifeisarthamburg@gmail.com'
 				src={hvac}
 				alt=''
+				caption="Swimming in the ocean is not just spending time in the water; it's a therapeutic dance with the waves that rejuvenates both body and soul. (Digital water color painting)"
 			/>
+			<div className='inner-container'></div>
 		
 			<div className='flex1200'>
 				<CardList

@@ -151,6 +151,7 @@ function Home() {
 				Email: lifeisarthamburg@gmail.com'
 				src={skele}
 				alt=''
+				caption="In the process of patching myself together, I am reminded that all of my pieces are worthy of love. (heart chakra work) "
 			/>
 			<div className='inner-container'>
 			    
