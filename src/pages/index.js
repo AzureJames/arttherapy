@@ -49,10 +49,10 @@ function Home() {
 					<h1 className='off-white'   style={{ marginBlock: '0rem'}}>Life is Art Creative Arts Therapy, PLLC</h1>
 					<p className='off-white'  style={{ marginBottom: '2rem', marginTop:"1rem"}}>Lynette Lex, PhD, ATR-BC, LCAT, CASAC</p>
 					<p className='off-white m-w65' style={{ marginBottom: '2rem'}}>
-					Life is Art is a unique Art Therapy Studio where EMDR, Art Therapy, and a holistic wellness approach to therapy are combined. Meditation, Mindfulness, Reiki and Aromatherapy are often included in sessions. Art Therapy gives a non-verbal means for expression when words are not enough. 
+					Life is Art is an unique Art Therapy Studio space, where Art Therapy, EMDR and a holistic wellness approach to therapy are combined. Meditation, Mindfulness, Reiki and Aromatherapy are often included in sessions. 
 					</p>
 					<p className='off-white m-w65'  style={{ marginBottom: '2rem'}}>
-					The Art Therapy Studio has a large space where both individuals and groups are able to create. This is a safe and inviting atmosphere where trauma can be addressed and healing is possible. Tela Health appointments are also available. Private pay and Cigna, Empire BCBC, Excellus BCBS, and Highmark BCBS, BCBS accepted. 
+					The Art Therapy Studio has a large space where both individuals and groups are able to create. This is a safe and inviting atmosphere where trauma can be addressed and healing is possible. Telehealth appointments are also available. Private pay and Cigna, Empire BCBC, Excellus BCBS, and Highmark BCBS, BCBS accepted. 
 					</p> 
 					{/* <div style={{display:"flex", gap:".5rem"}}>
 						<a href='#'>
@@ -67,40 +67,57 @@ function Home() {
 			{/* HERO BANNER FROM BLC??
 			CURVY BANNER */}
 			<DevBanner
-				title='Upcoming Event: example'
-				tagline='Upcoming Event' //The trees are as precious to us as diamonds, pearls, and the petals of a white rose. Quickbooks Online provides the way to paperless bookkeeping and we will donate $25 to Re-Tree NY for each new client.
-				tagline2='Upcoming Event'
+				title='Bio'
+				tagline='' //The trees are as precious to us as diamonds, pearls, and the petals of a white rose. Quickbooks Online provides the way to paperless bookkeeping and we will donate $25 to Re-Tree NY for each new client.
+				tagline2='Lynette Lex is a Licensed Creative Art Therapist, Registered and Board
+				Certified Art Therapist. She is a master credentialed alcohol and substance
+				abuse counselor along with having a Doctorate in Holistic Health. Lynette is also certified through EMDRIA in EMDR. She is a Reiki master, a
+				SoulCollage® Facilitator and a MARI facilitator/teacher.'
 			></DevBanner>
 							<OurServices />
 			<div className='flex1200'>
-
-				<CardList
+			<CardList
 					index='text'
-					title='About Us'
-					body="We "
+					title='Events & Groups'
+					body=""
 					body2=''
-					ull=''
-					ull2=''
+					ull='MARI - Mandala Assessment Research Instrument'
+					ull2='Journaling Through the Chakras Group'
 					ull3=''
-					ull4=''
-					ull5=''
+					ull4='SoulCollage® group and individual sessions'
+					ull5='Various, groups and workshops offered on Art Therapy and related topics upon request'
 					ull6=''
 					oll=''
 					oll2=''
 				></CardList>
+
+
+				<div className='card' > 
+						<div className='cardtop'>
+							<h2 className='h2two'>Helpful Links</h2>
+						</div>
+						<div className='servicecard'>
+							{/* <img src={pic} alt="hello" width={128} height={128}/> */}
+							<ul>
+								<li>
+									<ul>
+										<li><a href="https://arttherapy.org/">Art Therapy Association</a></li>
+										<li><a href="https://www.emdria.org/">EMDRIA</a></li>
+										<li><a href="https://www.maricreativeresources.com/">MARI Creative Resources</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+
 				
-				<Card
-					index='text'
-					title='Events & Groups'
-					body='Events '
-					body2=''
-				></Card>
-					<Card
+					{/* <Card
 						index='text'
 						title='Services'
 						body='EMDR info'
 						body2='Couples and Group Therapy info'
-					></Card>
+					></Card> */}
 
 
 <div style={{ margin: "0 auto", paddingTop: "60px", paddingBottom: "40px"}} className='flex-768'> 
@@ -108,12 +125,14 @@ function Home() {
         <div className="quote-container">
             <div>
                 <blockquote>
-                    <p>Overall, fantastic!</p>
+                    <p>Art Therapy and EMDR pleasantly surprised me. The experience allowed me to
+synthesize my previous work and future goals. It was productive and efficient with
+healing comprehension.</p>
                 </blockquote>  
-                <cite><span>Kristi Bruno</span><br/>
+                {/* <cite><span>Kristi Bruno</span><br/>
                     Credentials<br/>
                     Credentials
-                </cite>
+                </cite> */}
             </div>
         </div>
     </div>     
@@ -121,12 +140,13 @@ function Home() {
         <div className="quote-container">
             <div>
                 <blockquote>
-                    <p>Overall, fantastic!</p>
+                    <p>I have tried so many other therapies, but the combination of Art Therapy and EMDR his
+what helped me to be less reactive and feel more integrated.</p>
                 </blockquote>  
-                <cite><span>Kristi Bruno</span><br/>
+                {/* <cite><span>Kristi Bruno</span><br/>
 					Credentials<br/>
 					Credentials
-                </cite>
+                </cite> */}
             </div>
         </div>
     </div>   
@@ -163,16 +183,18 @@ function Home() {
         <div className="quote-container">
             <div>
                 <blockquote>
-                    <p>Overall, fantastic!</p>
+                    <p>Art Therapy and EMDR helped me to start the healing process, to be present and not
+distract myself. I am able to think about things that I tried do hard to avoid. Through
+these therapies I also reduced my alcohol use.</p>
                 </blockquote>  
-                <cite><span>Kristi Bruno</span><br/>
+                {/* <cite><span>Kristi Bruno</span><br/>
                     Credentials<br/>
                     Credentials
-                </cite>
+                </cite> */}
             </div>
         </div>
     </div>     
-	<div className="testimonial-quote group right" >
+	{/* <div className="testimonial-quote group right" >
         <div className="quote-container">
             <div>
                 <blockquote>
@@ -184,7 +206,7 @@ function Home() {
                 </cite>
             </div>
         </div>
-    </div>   
+    </div>    */}
 
 
 </div>
