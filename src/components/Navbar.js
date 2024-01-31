@@ -16,13 +16,13 @@ function Navbar(props) {
 	return (
 		<>
 			{/* props.classname on navbar if we want to add any specific styling to the navbar on a certain page. */}
-			<nav className={`navbar ${props.className}`} role='navigation'>
+			<nav className={`navbar ${props.className}`} role='navigation' style={{display:'flex',justifyContent: 'center'}}>
 				<div className='logo'>
 					<a href='/'>
-						<img src={hvac} alt='Life is Art PLLC logo' height={90} style={{borderRadius:"3px"}}></img>
+						<img src={hvac} alt='Life is Art PLLC logo' height={190} style={{borderRadius:"3px"}}></img>
 					</a>
 				</div>
-				<div>
+				{/* <div>
 					<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 						<li className='nav-item'>
 							<Link to='/' className='nav-links' onClick={closeMobileMenu}>
@@ -43,8 +43,8 @@ function Navbar(props) {
 							<Link to='/contact' onClick={closeMobileMenu}>
 								Contact
 							</Link>
-						</li> */}
-					</ul>
+						</li> 
+	</ul> 
 				</div>
 				<div
 					onClick={handleClick}
@@ -54,7 +54,7 @@ function Navbar(props) {
 					<span className='line'></span>
 					<span className='line'></span>
 					<span className='line'></span>
-				</div>
+				</div> */}
 			</nav>
 		</>
 	);

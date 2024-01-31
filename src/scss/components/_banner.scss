@@ -6,11 +6,11 @@
 }
 
 .devbanner {
-	padding: 3rem;
+	padding: 4rem;
 	border-radius: 2px;
 	background: a.$secondary;
-	box-shadow: inset 20px 20px 14px a.$primary, inset -20px -20px 14px a.$primary;
-	margin: 1rem 1.6rem;
+	box-shadow: inset 18px 18px 14px a.$primary, inset -18px -18px 14px a.$primary;
+	margin: 1rem 1.6rem 0rem 1.6rem;
 	max-width: 140rem;
 
 	img {
@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 768px) {
 	.devbanner {
-		margin: 3rem;
+		margin: 3rem 1.6rem 0rem 1.6rem;
 	}
 
 	.devbanner caption {
@@ -40,7 +40,7 @@
 
 .devbanner {
 	text-align: center;
-	margin: 8rem auto;
+	// margin: 8rem auto;
 }
 
 div > .devbanner {

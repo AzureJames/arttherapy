@@ -48,12 +48,14 @@ function Home() {
 				<div className='inner-container' style={{marginInline: '1rem', marginBottom: '3rem', padding: "1.5rem"}}>
 					<h1 className='off-white'   style={{ marginBlock: '0rem'}}>Life is Art Creative Arts Therapy, PLLC</h1>
 					<p className='off-white'  style={{ marginBottom: '2rem', marginTop:"1rem"}}>Lynette Lex, PhD, ATR-BC, LCAT, CASAC</p>
+					<div style={{ marginBottom: '2rem', backgroundColor:'rgb(10,30,53',borderRadius:'4px',padding:'1rem'}}>
 					<p className='off-white m-w65' style={{ marginBottom: '2rem'}}>
 					Life is Art is an unique Art Therapy Studio space, where Art Therapy, EMDR and a holistic wellness approach to therapy are combined. Meditation, Mindfulness, Reiki and Aromatherapy are often included in sessions. 
 					</p>
 					<p className='off-white m-w65'  style={{ marginBottom: '2rem'}}>
 					The Art Therapy Studio has a large space where both individuals and groups are able to create. This is a safe and inviting atmosphere where trauma can be addressed and healing is possible. Telehealth appointments are also available. Private pay and Cigna, Empire BCBC, Excellus BCBS, and Highmark BCBS, BCBS accepted. 
 					</p> 
+					</div>
 					{/* <div style={{display:"flex", gap:".5rem"}}>
 						<a href='#'>
 						<AiFillFacebook size={40} color={"fff"}/>
@@ -73,8 +75,9 @@ function Home() {
 				Certified Art Therapist. She is a master credentialed alcohol and substance
 				abuse counselor along with having a Doctorate in Holistic Health. Lynette is also certified through EMDRIA in EMDR. She is a Reiki master, a
 				SoulCollage® Facilitator and a MARI facilitator/teacher.'
+				style={{marginBottom:'0px'}}
 			></DevBanner>
-							<OurServices />
+							{/* <OurServices /> */}
 			<div className='flex1200'>
 			<CardList
 					index='text'
@@ -171,7 +174,7 @@ what helped me to be less reactive and feel more integrated.</p>
 				Email: lifeisarthamburg@gmail.com'
 				src={skele}
 				alt=''
-				caption="In the process of patching myself together, I am reminded that all of my pieces are worthy of love. (heart chakra work) "
+				caption="“In the process of patching myself together, I am reminded that all of my pieces are worthy of love.” (heart chakra work) "
 			/>
 			<div className='inner-container'>
 			    

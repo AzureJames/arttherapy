@@ -33,7 +33,7 @@ function Contact() {
 				Email: lifeisarthamburg@gmail.com'
 				src={hvac}
 				alt=''
-				caption="Swimming in the ocean is not just spending time in the water; it's a therapeutic dance with the waves that rejuvenates both body and soul. (Digital water color painting)"
+				caption="“Swimming in the ocean is not just spending time in the water; it's a therapeutic dance with the waves that rejuvenates both body and soul.” (Digital water color painting)"
 			/>
 			<div className='inner-container'></div>
 		
