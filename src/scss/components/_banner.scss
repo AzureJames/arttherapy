@@ -6,7 +6,7 @@
 }
 
 .devbanner {
-	padding: 4rem;
+	padding: 5rem;
 	border-radius: 2px;
 	background: a.$secondary;
 	box-shadow: inset 18px 18px 14px a.$primary, inset -18px -18px 14px a.$primary;
@@ -19,7 +19,24 @@
 	}
 }
 
+
+
 @media screen and (min-width: 768px) {
+	.bio-flex {
+		display: flex;
+		align-items: center;
+	}
+
+	.description {
+		padding-inline: 1rem;
+	}
+
+
+	.flex-800 {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
 	.devbanner {
 		margin: 3rem 1.6rem 0rem 1.6rem;
 	}
@@ -28,15 +45,16 @@
 		margin-left: 1.4rem;
 	}
 }
-@media screen and (min-width: 898px) {
-	.devbanner {
-		padding: 8rem;
-		display: flex;
-		flex-direction: row-reverse;
-		align-items: center;
-		justify-content: space-between;
-		}
-	}
+// @media screen and (min-width: 898px) {
+// 	.devbanner {
+// 		padding: 8rem;
+// 		display: flex;
+// 		flex-direction: row-reverse;
+// 		align-items: center;
+// 		justify-content: space-between;
+// 		gap: 1rem;
+// 		}
+// 	}
 
 .devbanner {
 	text-align: center;

@@ -16,8 +16,8 @@ const Footer = () => {
 					<div className='footer-one'>
 						<div>
 							{/* <h3>Address</h3> */}
-							<p>6069 Southwestern Blvd</p>
-							<p>Hamburg, NY 14075</p>
+							<p>PO Box 160</p>
+							<p>Lakeview, NY 14085</p>
 						</div>
 						<div>
 							<p>
@@ -26,7 +26,7 @@ const Footer = () => {
 							<p>
 								<a href='mailto:lifeisarthamburg@gmail.com'>lifeisarthamburg@gmail.com</a>
 							</p>
-							<p>Web design by <a href='https://azurejames.github.io/portfolio/'>Azure James</a></p>
+							<p>Web design by <a href='https://www.linkedin.com/in/azure-gallagher-michalak-b33719119/'>Azure Michalak</a></p>
 						</div>
 						{/* <ul>
 							<li className='nav-item'>

@@ -53,8 +53,11 @@ function Home() {
 					Life is Art is an unique Art Therapy Studio space, where Art Therapy, EMDR and a holistic wellness approach to therapy are combined. Meditation, Mindfulness, Reiki and Aromatherapy are often included in sessions. 
 					</p>
 					<p className='off-white m-w65'  style={{ marginBottom: '2rem'}}>
-					The Art Therapy Studio has a large space where both individuals and groups are able to create. This is a safe and inviting atmosphere where trauma can be addressed and healing is possible. Telehealth appointments are also available. Private pay and Cigna, Empire BCBC, Excellus BCBS, and Highmark BCBS, BCBS accepted. 
+					Art Therapy gives a nonverbal means of expression when words are not enough. This is a safe and inviting atmosphere where trauma can be addressed and healing is supported.  
 					</p> 
+					<p className='off-white m-w65'  style={{ marginBottom: '2rem'}}>
+					In-person and telehealth appointments are available. Private pay and some insurances accepted. 
+					</p>
 					</div>
 					{/* <div style={{display:"flex", gap:".5rem"}}>
 						<a href='#'>
@@ -84,11 +87,11 @@ function Home() {
 					title='Events & Groups'
 					body=""
 					body2=''
-					ull='MARI - Mandala Assessment Research Instrument'
-					ull2='Journaling Through the Chakras Group'
+					ull='*MARI - Mandala Assessment Research Instrument'
+					ull2='*Journaling Through the Chakras Group'
 					ull3=''
-					ull4='SoulCollage® group and individual sessions'
-					ull5='Various, groups and workshops offered on Art Therapy and related topics upon request'
+					ull4='*SoulCollage® group and individual sessions'
+					ull5='*Various, groups and workshops offered on Art Therapy and related topics upon request'
 					ull6=''
 					oll=''
 					oll2=''
@@ -166,11 +169,13 @@ what helped me to be less reactive and feel more integrated.</p>
 				type=''
 				title='Contact'
 				summary='Hours: Weekdays, day and evening hours are available.
-				Location: 6069 Southwestern Blvd
-				Hamburg, NY 14075
+				
 				'
 				
-				summary2='Phone: 716-235-1900
+				summary2='
+				PO Box 160
+				Lakeview, NY 14085
+				Phone: 716-235-1900
 				Email: lifeisarthamburg@gmail.com'
 				src={skele}
 				alt=''

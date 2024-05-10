@@ -26,8 +26,8 @@ function Contact() {
 				type=''
 				title='Contact'
 				summary='Hours: Weekdays, day and evening hours are available.
-				Location: 6069 Southwestern Blvd
-				Hamburg, NY 14075
+				PO Box 160
+				Lakeview, NY 14085
 				'
 				summary2='Phone: 716-235-1900
 				Email: lifeisarthamburg@gmail.com'
