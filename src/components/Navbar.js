@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import hvac from "../img/lifeIsArtPllc.png"
+import hvac from "../img/lifeIsArtPllc.jpg"
 
 //styles
 import '../scss/components/_navbar.scss';

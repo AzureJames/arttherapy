@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import hvac from "../img/lifeIsArtPllc.png"
+import hvac from "../img/lifeIsArtPllc.jpg"
 
 //STYLING
 import '../scss/components/_footer.scss';
