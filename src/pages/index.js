@@ -128,7 +128,7 @@ she is here to support you every step of the way.'
 								</li>
 							</ul>
 						</div>
-					</div>
+				</div>
 
 
 				
@@ -138,9 +138,10 @@ she is here to support you every step of the way.'
 						body='EMDR info'
 						body2='Couples and Group Therapy info'
 					></Card> */}
-
-
-<div style={{ margin: "0 auto", paddingTop: "60px", paddingBottom: "40px"}} className='flex-768'> 
+		
+</div>
+<h2 style={{display:'block', textAlign:'center',paddingTop: "40px"}}>Testimonials</h2>
+<div style={{ margin: "0 auto", paddingTop: "20px"}} className='flex-768'> 
 	<div className="testimonial-quote group right">
         <div className="quote-container">
             <div>
@@ -170,6 +171,21 @@ what helped me to be less reactive and feel more integrated.</p>
             </div>
         </div>
     </div>   
+	<div className="testimonial-quote group right">
+        <div className="quote-container">
+            <div>
+                <blockquote>
+                    <p>Art Therapy and EMDR helped me to start the healing process, to be present and not
+distract myself. I am able to think about things that I tried do hard to avoid. Through
+these therapies I also reduced my alcohol use.</p>
+                </blockquote>  
+                {/* <cite><span>Kristi Bruno</span><br/>
+                    Credentials<br/>
+                    Credentials
+                </cite> */}
+            </div>
+        </div>
+    </div>  
     <hr style={{margin: "60px auto", opacity: ".5"}} />
 
 
@@ -177,7 +193,6 @@ what helped me to be less reactive and feel more integrated.</p>
 
 
 
-			</div>
 			<FullPost
 				url='URL for the post'
 				type=''
@@ -201,22 +216,7 @@ what helped me to be less reactive and feel more integrated.</p>
 
 
 			<div style={{ margin: "0 auto", paddingTop: "10px", paddingBottom: "40px"}} className='flex-768'> 
-	<div className="testimonial-quote group right">
-        <div className="quote-container">
-            <div>
-                <blockquote>
-                    <p>Art Therapy and EMDR helped me to start the healing process, to be present and not
-distract myself. I am able to think about things that I tried do hard to avoid. Through
-these therapies I also reduced my alcohol use.</p>
-                </blockquote>  
-                {/* <cite><span>Kristi Bruno</span><br/>
-                    Credentials<br/>
-                    Credentials
-                </cite> */}
-            </div>
-        </div>
-    </div>     
-	{/* <div className="testimonial-quote group right" >
+					{/* <div className="testimonial-quote group right" >
         <div className="quote-container">
             <div>
                 <blockquote>
