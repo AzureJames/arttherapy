@@ -1,26 +1,15 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import Card from '../components/Card';
 import CardList from '../components/CardList';
-import BannerCard from '../components/BannerCard';
 import DevBanner from '../components/DevBanner';
 import FullPost from '../components/FullPost';
-import CurvySection from '../components/CurvySection';
-
-import hvac from "../img/hvac.jpeg";
-import diving from "../img/diving.png";
 import mask from "../img/mask.jpg";
 import mask2 from "../img/mask2.jpg";
 import skele from "../img/skele.jpg";
 import whitePainting from "../img/whitePainting.jpg";
-
-import HeroBanner from '../components/HeroBanner';
-import { FaSquareInstagram } from "react-icons/fa6";
-import { AiFillFacebook } from "react-icons/ai";
 //STYLING
 import '../scss/pages/_home.scss';
-import OurServices from '../components/OurServices';
 
 //MUST USE A FAVICON.ICO AT THE ROOT OF THE APP DIRECTORY...
 //update metadata in public index html 
@@ -30,7 +19,7 @@ function Home() {
 		<div className='home'>
 								<Navbar />
 			<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', marginBlock: '1rem'}}>
-				<h1 className='off-white'   style={{ marginBlock: '0rem', width:'fit-content'}}>Life is Art Creative Arts Therapy, PLLC</h1>
+				<h1 className='off-white'   style={{ marginBlock: '0rem', visibility:'hidden',width:'0px', height:'0px'}}>Life is Art Creative Arts Therapy, PLLC</h1>
 				<p className='off-white'  style={{ marginBottom: '2rem', marginTop:"1rem"}}>Lynette Lex, PhD, ATR-BC, LCAT, CASAC</p>
 			</div>
 			<div className='flex-md' style={{maxWidth:"1200px"	, marginInline:"auto", marginTop: "1.6rem"}}>

@@ -42,10 +42,10 @@ const Footer = () => {
 					</div>
 					<div className='footer-two' style={{marginTop: '20px'}}>
 						{/* <q style={{fontSize: '16px', paddingBlock: '1rem', display: 'block'}}>A society grows great when old men plant trees in whose shade they shall never sit.</q><cite style={{fontSize: '16px', paddingBlock: '1rem'}}> -Greek Proverb</cite> */}
-						<h3>heading</h3>
+						
 						<div >
 							<a href='/'>
-								<img src={hvac} alt='Placeholder logo' style={{width: '190px', height: "auto"}} />
+								<img src={hvac} alt='art logo' style={{width: '190px', height: "auto"}} />
 							</a>
 						</div>						
 					</div>

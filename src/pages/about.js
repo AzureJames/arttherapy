@@ -30,7 +30,7 @@ function About() {
 						body='We keep you warm'
 						body2='We keep you warm'
 					></BannerCard> */}
-					<img src={sunflower} alt="abstract art" style={{maxHeight:"400px"}}></img>
+					<img src={sunflower} alt="abstract art painting" style={{maxHeight:"400px"}}></img>
 					<caption><p style={{marginInline: "1rem"}}>The blue is spiritual for my brother who passed away. The roots are not the best ground to work with. The sunflower stands further away from the dark parts. It faces the sun and is more hopeful.</p></caption>
 					{/* 
 					

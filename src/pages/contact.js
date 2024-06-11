@@ -32,7 +32,7 @@ function Contact() {
 				summary2='Phone: 716-235-1900
 				Email: lifeisarthamburg@gmail.com'
 				src={hvac}
-				alt=''
+				alt='diving painting with blue'
 				caption="“Swimming in the ocean is not just spending time in the water; it's a therapeutic dance with the waves that rejuvenates both body and soul.” (Digital water color painting)"
 			/>
 			<div className='inner-container'></div>

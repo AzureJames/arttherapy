@@ -3,6 +3,7 @@ import '../scss/components/_banner.scss';
 // import img from '../img/contact-bg-sm.jpg';
 import hvac from "../img/diving.png"
 import lynette from "../img/lynette.png"
+import danielle from "../img/danielle.jpg"
 
 export default function DevBanner({title, tagline, tagline2, image, svgColor}) {
   return (
@@ -19,7 +20,7 @@ export default function DevBanner({title, tagline, tagline2, image, svgColor}) {
                 <p className='description' style={{fontSize: '19px', fontWeight: 'bold'}}>{tagline}</p>
               </div>
               <div className='bio-flex'>
-                <img src={lynette} alt={"Lynette Portrait"} style={{maxWidth: "300px"}}></img>
+                <img src={danielle} alt={"Danielle Portrait"} style={{maxWidth: "300px"}}></img>
                 <p className='description' style={{fontSize: '19px', fontWeight: 'bold'}}>{tagline2}</p>
               </div>
             </div>
