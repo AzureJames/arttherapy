@@ -150,7 +150,7 @@ healing comprehension.</p>
         <div className="quote-container">
             <div>
                 <blockquote>
-                    <p>I have tried so many other therapies, but the combination of Art Therapy and EMDR his
+                    <p>I have tried so many other therapies, but the combination of Art Therapy and EMDR is
 what helped me to be less reactive and feel more integrated.</p>
                 </blockquote>  
                 {/* <cite><span>Kristi Bruno</span><br/>
@@ -165,7 +165,7 @@ what helped me to be less reactive and feel more integrated.</p>
             <div>
                 <blockquote>
                     <p>Art Therapy and EMDR helped me to start the healing process, to be present and not
-distract myself. I am able to think about things that I tried do hard to avoid. Through
+distract myself. I am able to think about things that I tried so hard to avoid. Through
 these therapies I also reduced my alcohol use.</p>
                 </blockquote>  
                 {/* <cite><span>Kristi Bruno</span><br/>
