@@ -7,6 +7,7 @@ import FullPost from '../components/FullPost';
 import mask from "../img/mask.jpg";
 import mask2 from "../img/mask2.jpg";
 import skele from "../img/skele.jpg";
+import collage from "../img/collage.jpg";
 import whitePainting from "../img/whitePainting.jpg";
 //STYLING
 import '../scss/pages/_home.scss';
@@ -224,7 +225,7 @@ these therapies I also reduced my alcohol use.</p>
 
 
 			</div>
-			<div className='flex1200'>
+			<div style={{display: "flex", alignItems: "center",flexDirection: "column"}}>
 
 		    	{/* <CardList
 					index='text'
@@ -240,8 +241,10 @@ these therapies I also reduced my alcohol use.</p>
 					oll='1. '
 					oll2='2. '
 				></CardList> */}
-				<img src={mask} alt="" style={{width: '100%', maxWidth: '400px', height: 'auto'}}></img>
-				<img src={mask2} alt="" style={{width: '100%', maxWidth: '400px', height: 'auto'}}></img>
+				<img src={collage} alt="colorful collage" style={{display:"block", width: '100%', maxWidth: '650px', height: 'auto'}}></img>
+<p style={{display:"block", fontWeight:"bold"}}>Identity</p>
+	<p>Peeling back and discovering the pieces of true identity</p>
+				{/* <img src={mask2} alt="" style={{width: '100%', maxWidth: '400px', height: 'auto'}}></img> */}
 			</div>
 			<div className='flex1200'>
 			</div>
