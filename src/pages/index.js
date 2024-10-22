@@ -241,7 +241,7 @@ these therapies I also reduced my alcohol use.</p>
 					oll='1. '
 					oll2='2. '
 				></CardList> */}
-				<img src={collage} alt="colorful collage" style={{display:"block", width: '100%', maxWidth: '650px', height: 'auto'}}></img>
+				<img src={collage} alt="a colorful collage" style={{display:"block", width: '100%', maxWidth: '650px', height: 'auto'}}></img>
 <p style={{display:"block", fontWeight:"bold"}}>Identity</p>
 	<p>Peeling back and discovering the pieces of true identity</p>
 				{/* <img src={mask2} alt="" style={{width: '100%', maxWidth: '400px', height: 'auto'}}></img> */}
