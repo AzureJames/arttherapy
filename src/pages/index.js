@@ -197,7 +197,7 @@ these therapies I also reduced my alcohol use.</p>
 				Phone: 716-235-1900
 				Email: lifeisarthamburg@gmail.com'
 				src={skele}
-				alt=''
+				alt='Skeleton picture'
 				caption="“In the process of patching myself together, I am reminded that all of my pieces are worthy of love.” (heart chakra work) "
 			/>
 			<div className='inner-container'>
