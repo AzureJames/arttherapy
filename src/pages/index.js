@@ -68,7 +68,7 @@ telehealth appointments are available. Self-Pay fee and some insurances are acce
 			{/* HERO BANNER FROM BLC??
 			CURVY BANNER */}
 			<DevBanner
-				title='Bios'
+				title='Bio'
 				tagline='Lynette Lex is a Licensed Creative Art Therapist, Registered and Board
 Certified Art Therapist with 27 years of experience. She is a master credentialed alcohol and
 substance abuse counselor along with having a Doctorate in Holistic Health.
