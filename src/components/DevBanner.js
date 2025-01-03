@@ -19,10 +19,10 @@ export default function DevBanner({title, tagline, tagline2, image, svgColor}) {
                 <img src={lynette} alt={"Lynette Portrait"} style={{maxWidth: "300px"}}></img>
                 <p className='description' style={{fontSize: '19px', fontWeight: 'bold'}}>{tagline}</p>
               </div>
-              // <div className='bio-flex'>
-              //   <img src={danielle} alt={"Danielle Portrait"} style={{maxWidth: "300px"}}></img>
-              //   <p className='description' style={{fontSize: '19px', fontWeight: 'bold'}}>{tagline2}</p>
-              // </div>
+{/* <div className='bio-flex'>
+                 <img src={danielle} alt={"Danielle Portrait"} style={{maxWidth: "300px"}}></img>
+                 <p className='description' style={{fontSize: '19px', fontWeight: 'bold'}}>{tagline2}</p>
+               </div> */}
             </div>
         </div>
     </>
