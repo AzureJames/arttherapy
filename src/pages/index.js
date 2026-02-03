@@ -61,7 +61,7 @@ telehealth appointments are available. Self-Pay fee and some insurances are acce
 					<img src='https://offsiteSchedule.zocdoc.com/images/remote/rb_BookOnline_White_162x71.png?type=bobhtml&monolith_provider_id=168511&practice_id=pt_uyPP_6Hodkq-S5DUdoR78Q' 
 					alt='Life is Art Creative Arts Therapy, PLLC' 
 						title='Life is Art Creative Arts Therapy, PLLC' 
-						style={{'border:0'}} />
+						style={{border:'0'}} />
 					</a></div>
 	
 					</div>
