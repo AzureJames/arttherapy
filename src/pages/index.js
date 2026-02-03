@@ -56,7 +56,13 @@ telehealth appointments are available. Self-Pay fee and some insurances are acce
 					</p>
 
 /*CALENDAR */
-					<div> <a href='https://www.zocdoc.com/practice/life-is-art-creative-arts-therapy-pllc-168511?lock=true&isNewPatient=false&referrerType=widget' target='_blank' title='Life is Art Creative Arts Therapy, PLLC'><img src='https://offsiteSchedule.zocdoc.com/images/remote/rb_BookOnline_White_162x71.png?type=bobhtml&monolith_provider_id=168511&practice_id=pt_uyPP_6Hodkq-S5DUdoR78Q' alt='Life is Art Creative Arts Therapy, PLLC' title='Life is Art Creative Arts Therapy, PLLC' style='border:0'></a></div>
+					<div> <a href='https://www.zocdoc.com/practice/life-is-art-creative-arts-therapy-pllc-168511?lock=true&isNewPatient=false&referrerType=widget' 
+	target='_blank' title='Life is Art Creative Arts Therapy, PLLC'>
+					<img src='https://offsiteSchedule.zocdoc.com/images/remote/rb_BookOnline_White_162x71.png?type=bobhtml&monolith_provider_id=168511&practice_id=pt_uyPP_6Hodkq-S5DUdoR78Q' 
+					alt='Life is Art Creative Arts Therapy, PLLC' 
+						title='Life is Art Creative Arts Therapy, PLLC' 
+						style='border:0' />
+					</a></div>
 	
 					</div>
 					{/* <div style={{display:"flex", gap:".5rem"}}>
