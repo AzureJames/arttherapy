@@ -12,7 +12,7 @@ import whitePainting from "../img/whitePainting.jpg";
 //STYLING
 import '../scss/pages/_home.scss';
 
-//MUST USE A FAVICON.ICO AT THE ROOT OF THE APP DIRECTORY...
+//MUST USE A FAVICON.ICO AT THE ROOT OF THE APP DIRECTORY.
 //update metadata in public index html 
 
 function Home() {
